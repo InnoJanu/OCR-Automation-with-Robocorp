@@ -4,6 +4,8 @@
 tasks:
   Get Invoice Data:
     shell: python -m robocorp.tasks run producer.py
+  Generate Excel:
+    shell: python -m robocorp.tasks run consumer.py
 
 environmentConfigs:
   - environment_windows_amd64_freeze.yaml

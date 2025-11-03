@@ -1,45 +1,39 @@
-import os
-
-
 from robocorp.tasks import task
 
-from RPA.PDF import PDF
 from RPA.JSON import JSON
-
+from RPA.Excel.Files import Files
 
 
 @task
 def generate_report():
-    global pdf_path 
-    pdf_path = "output/report.pdf"
-    if os.path.exists(pdf_path):
-        # Remove it first (to avoid PermissionError)
-        os.remove(pdf_path)
-    if os.path.exists("output/data.json"): 
-        html_content = create_html_content()
-        create_pdf(html_content)
-    else: 
-        print("No OCR Data Available")
+    create_excel_file()
     
 
-def create_pdf(html_content):
-    pd = PDF()
-
-    pd.html_to_pdf(html_content, pdf_path)
-
-def create_html_content():
+def read_json():
     js = JSON()
     data = js.load_json_from_file("output/data.json")
-
-    html_content = ""
-
-    for item in data:
-        html_content += f"""
-            <h1>{item['file_name']}</h1>
-            <p>Registration Number: {item['company_reg_number']}</p>
-            <p>VAT Number: {item['vat_number']}</p>
-        <br><br>
-        """
-    return html_content
     
+    combined_data = []
     
+    for file in data:
+        file_data = []
+        file_data.append(file["file_name"])
+        file_data.append(file["company_reg_number"])
+        file_data.append(file["vat_number"])
+        combined_data.append(file_data)
+    return combined_data
+
+
+def create_excel_file():
+    excel = Files()
+    data = read_json()
+
+    excel.create_workbook("output/report.xlsx")
+
+    headers = ["File Name", "VAT Number", "Registration Number"]
+    excel.append_rows_to_worksheet([headers], header=False)
+    
+    for row in data:
+        excel.append_rows_to_worksheet([row])
+
+    excel.save_workbook()
