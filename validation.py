@@ -28,5 +28,3 @@ def validate_vat_number(list):
 def add_slahses(number):
     number = number[:4] + "/" + number[4:10] + "/" + number[-2:]
     return number
-
-# print(validate_company_number(["201812345607"]))

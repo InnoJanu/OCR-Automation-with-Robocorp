@@ -8,7 +8,7 @@ from robocorp.tasks import task
 from RPA.FileSystem import FileSystem
 import validation
 
-pytesseract.pytesseract.tesseract_cmd = r"C:\My Program Files\Tesseract\tesseract.exe"
+# pytesseract.pytesseract.tesseract_cmd = r"C:\My Program Files\Tesseract\tesseract.exe"
 
 @task
 def minimal_task():
