@@ -22,3 +22,4 @@ Your own path
 Use Case: ...... placeholder ...
 
 Potential additionans to project: retrieve invoices with with another bot. Post data back into database to verify.
+![image alt](https://github.com/InnoJanu/OCR-Automation-with-Robocorp/blob/e21bcb592719aa200f86fade4ab0a4113350819e/project_overview.jpg)
