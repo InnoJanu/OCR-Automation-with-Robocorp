@@ -1,5 +1,7 @@
 # OCR Automation Project
-This project is designed to extract text from invoices in the form of images and return valid company registration numbers and valid tax numbers. It uses the Robocorp framework to help with automation along with other Python libraries. 
+This automation project helps companies save costs by verifying whether their vendors are VAT-compliant. The system extracts text from invoice images to identify valid company registration numbers. These details can then be matched against a master vendor database to confirm VAT registration status.
+
+The goal is to ensure that the company works with VAT-registered vendors, enabling it to claim back input VAT from SARS on qualifying purchases.
 ## Run and Setup
 1. Install the Sema4 extioin for VS Code.
 2. Install Tesseract on your local machine....tbc
