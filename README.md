@@ -14,9 +14,10 @@ Configure tesseract path
 To run the project first there are two parts you need to run. 
 1. First run the "Get Invoice Data" task.
 2. Then run the "Generate Excel" task.
+
 <img src="https://github.com/InnoJanu/OCR-Automation-with-Robocorp/blob/main/README%20Images/run_in_vs_code.jpg?raw=true"
-     alt="Run in VS Code"
-     width="70%" />
+     alt="Run in VS Code Image"
+     width="40%" />
 ```
 edit this file path
 ```
