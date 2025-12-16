@@ -21,7 +21,9 @@ to:
 Your own path
 ```
 # Potential expansion to the project
-Use Case: ...... placeholder ...
+This project serves as a segment of a larger project. There is still potential to add additional automation before and afer this step. Architecture of you system may vary and this is simply a suggestion of how it could look like.
 
-Potential additionans to project: retrieve invoices with with another bot. Post data back into database to verify.
+Potential additions to project:
+__Before:__ *Add a bot that retrieves invoices and puts them into a directory.*
+__After:__ *Add a bot that sends the sends the data back to another database.*
 ![image alt](https://github.com/InnoJanu/OCR-Automation-with-Robocorp/blob/e21bcb592719aa200f86fade4ab0a4113350819e/project_overview.jpg)
