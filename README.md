@@ -5,7 +5,7 @@ In a South African context, the goal would be to ensure that the company works w
 ## Setup
 *Note: This project is set up to run on Windows. It might be possible to run this project on Linux or Mac, but this README does not provide a guide to installation/setup for those operating systems.*
 
-1. Install the Sema4 extension for VS Code.
+1. Install the Sema4.ai SDK extension for VS Code.
    
 2. Install Tesseract on your local machine.
    - Use the Windows installer to install Tesseract: https://github.com/UB-Mannheim/tesseract/wiki
