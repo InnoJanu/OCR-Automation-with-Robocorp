@@ -11,12 +11,10 @@ In a South African context the goal would be to ensure that the company works wi
    - Use the Windows installer to install tesseract: https://github.com/UB-Mannheim/tesseract/wiki
    
 4. Install pip packages
-   - Package names: *pillow, pytesseract, robocorp-tasks, rpaframework*
-How to install packages:
+   - **Package names:** *pillow, pytesseract, robocorp-tasks, rpaframework*
  ```
  pip install "package name"
  ```
-
 
 ## Run in VS Code
 To run the project there are two parts you need to run. 
