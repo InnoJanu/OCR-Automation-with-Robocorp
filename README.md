@@ -11,7 +11,7 @@ In a South African context the goal would be to ensure that the company works wi
 Configure tesseract path
 
 ## Run in VS Code
-To run the project first there are two parts you need to run. 
+To run the project there are two parts you need to run. 
 1. First run the "Get Invoice Data" task.
 2. Then run the "Generate Excel" task.
 
