@@ -8,10 +8,11 @@ In a South African context, the goal would be to ensure that the company works w
 1. Install the Sema4 extension for VS Code.
    
 2. Install Tesseract on your local machine.
-   - Use the Windows installer to install tesseract: https://github.com/UB-Mannheim/tesseract/wiki
+   - Use the Windows installer to install Tesseract: https://github.com/UB-Mannheim/tesseract/wiki
+   - Note that you will need both the Tesseract engine and Tesseract package.
    
 4. Install pip packages
-   - **Package names:** *pillow, pytesseract, robocorp-tasks, rpaframework*
+   - **Package names:** *pillow, pytesseract, robocorp-tasks, rpaframework.*
  ```
  pip install "package name"
  ```
@@ -26,7 +27,7 @@ To run the project, there are two parts you need to run.
      width="40%" />
 
 # Potential expansion to the project
-This project serves as a segment of a larger project. There is still potential to add additional automation before and after this automation. The architecture system may is not fixed and this is simply a suggestion of how it could look like.
+This project serves as a segment of a larger project. There is still potential to add automation before and after this process. The architecture system may is not fixed and this is simply a suggestion of how it could look like.
 
 The section highlighted in green shows where this project fits into the larger scope of potential expansion to the project.
 
