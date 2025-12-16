@@ -27,7 +27,7 @@ To run the project, there are two parts you need to run.
      width="40%" />
 
 # Potential expansion to the project
-This project serves as a segment of a larger project. There is still potential to add automation before and after this process. The architecture system may is not fixed and this is simply a suggestion of how it could look like.
+This project serves as a segment of a larger project. There is still potential to add automation before and after this process. The architecture of the system may change to complement other systems better. This is simply an idea of how a system like this can work.
 
 The section highlighted in green shows where this project fits into the larger scope of potential expansion to the project.
 
