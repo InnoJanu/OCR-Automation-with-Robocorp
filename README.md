@@ -3,12 +3,18 @@ This automation project helps companies save costs by verifying whether their ve
 
 In a South African context the goal would be to ensure that the company works with VAT-registered vendors, enabling it to claim back input VAT from SARS on qualifying purchases.
 ## Setup
+*Note: This project is setup to run on Windows. It might be possible to run this project Linux or Mac, but this README does not provide a guide to installation/setup for those operating systems.*
+
 1. Install the Sema4 extioin for VS Code.
-2. Install Tesseract on your local machine....tbc
-3. Install pip packages....tbc
-4. Configure file paths...
-### Configure Files
-Configure tesseract path
+   
+2. Install Tesseract on your local machine.
+   - Use the Windows installer to install tesseract: https://github.com/UB-Mannheim/tesseract/wiki
+   
+4. Install pip packages
+ ```
+ pip install "package name"
+ ```
+- Package names: *pillow, pytesseract, robocorp-tasks, rpaframework*
 
 ## Run in VS Code
 To run the project there are two parts you need to run. 
@@ -18,17 +24,7 @@ To run the project there are two parts you need to run.
 <img src="https://github.com/InnoJanu/OCR-Automation-with-Robocorp/blob/main/README%20Images/run_in_vs_code.jpg?raw=true"
      alt="Run in VS Code Image"
      width="40%" />
-```
-edit this file path
-```
-Optional: You can change the file path to a directory with your own images if you'd like to test it....
-```
-original path
-```
-to:
-```
-Your own path
-```
+
 # Potential expansion to the project
 This project serves as a segment of a larger project. There is still potential to add additional automation before and afer this step. Architecture of you system may vary and this is simply a suggestion of how it could look like.
 
