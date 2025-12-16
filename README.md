@@ -23,10 +23,10 @@ Your own path
 # Potential expansion to the project
 This project serves as a segment of a larger project. There is still potential to add additional automation before and afer this step. Architecture of you system may vary and this is simply a suggestion of how it could look like.
 
+The section highligted in green shows where this project fits into the larger scope of potential expansion to the project.
+
 Potential additions to project:
-
-__Before:__ *Add a bot that retrieves invoices and puts them into a directory.*
-
-__After:__ *Add a bot that sends the sends the data back to another database.*
++ *Add a bot that retrieves invoices and puts them into a directory.*
++ *Add a bot that sends the sends the data back to another database.*
 
 ![image alt](https://github.com/InnoJanu/OCR-Automation-with-Robocorp/blob/e21bcb592719aa200f86fade4ab0a4113350819e/project_overview.jpg)
